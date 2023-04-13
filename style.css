@@ -135,3 +135,10 @@ nav ul li a:hover {
 }
 
 /***== Category ==***/
+#category{
+    height: 89vh;
+    padding: 0px 75px;
+    padding-top: 10px;
+    padding-bottom: 10  px;
+    background-color: white;
+}
