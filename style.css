@@ -385,6 +385,7 @@ a{
     align-items: center;
     padding: 50px 320px;
     padding-top: 0;
+    padding-bottom: 20px;
     box-sizing: border-box;
     background-color: rgba(127, 185, 223, 1);
     border-radius: 50px 50px 0px 0px;
@@ -445,6 +446,7 @@ input[type=checkbox] {
 }
 
 #submit-form {
+    cursor: pointer;
     background-color: white;
     color: rgba(127, 185, 223, 1);
     font-weight: 600;
@@ -460,7 +462,47 @@ input[type=checkbox] {
 }
 
 #submit-form:hover {
-    background-color: #0755fd;
-    color: white;
+    box-shadow: 0px 0px 10px rgba(228, 245, 255, 1);
 }
 
+/****Learny****/
+#learny{
+    box-sizing: border-box;
+    height: 50vh;
+    padding: 0px 100px;
+    padding-top: 20px;
+}
+.j-learny{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Tilt Warp', cursive;
+    padding-bottom: 15px;
+    word-spacing: 3px;
+}
+.j-learny span{
+    color: rgba(127, 185, 223, 1);
+}
+#description{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.read #read1 {
+    position: absolute;
+    background-color: rgba(127, 185, 223, 1);
+    color: white;
+    font-weight: 600;
+    border-radius: 40px;
+    border-style: none;
+    width: 140px;
+    height: 45px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-left: 12cm;
+}
+.read #read1:hover {
+    box-shadow: 0px 0px 10px rgba(127, 185, 223, 1);
+}
