@@ -528,9 +528,10 @@ input[type=checkbox] {
     color: white;
     font-size: 15px;
 }
-#logo img{
+#logo2 img{
     position: absolute;
     right: 36%;
+    top: 74.5cm;
     background-color: white;
     padding: 99px 75px;
     margin-right: 10cm; 
@@ -542,7 +543,7 @@ input[type=checkbox] {
     text-align: center;
     color: white;
     font-family: 'Poppins', sans-serif;
-    margin-left: 250px;
+    margin-left: 350px;
 }
 
 #skilvul a {
@@ -553,8 +554,12 @@ input[type=checkbox] {
     background-color: white;
     border-radius: 40px;
     padding: 15px 15px;
-    margin-left:0px;
+    margin-top:10px;
     font-family: 'Poppins', sans-serif;
+}
+#skilvul a:hover {
+    background-color: #BC0000;
+    color: white;
 }
 
 #list {
