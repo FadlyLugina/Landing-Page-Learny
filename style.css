@@ -378,4 +378,89 @@ a{
     box-shadow: 0px 0px 10px rgba(127, 185, 223, 1);
 }
 
+/***Kontak****/
+#kontak {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 320px;
+    padding-top: 0;
+    box-sizing: border-box;
+    background-color: rgba(127, 185, 223, 1);
+    border-radius: 50px 50px 0px 0px;
+}
+
+#j-kontak h6 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Tilt Warp', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 740px;
+    height: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+input[id=email] {
+    width: 740px;
+    height: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+input[type=number] {
+    width: 740px;
+    height: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+input[type=checkbox] {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#form #check {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#submit-form {
+    background-color: white;
+    color: rgba(127, 185, 223, 1);
+    font-weight: 600;
+    border-radius: 20px;
+    border-style: none;
+    width: 130px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 8cm;
+}
+
+#submit-form:hover {
+    background-color: #0755fd;
+    color: white;
+}
 
